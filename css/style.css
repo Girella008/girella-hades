@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "PTSerif-Regular.tff";
+    src: url("./fontes/PTSerif-Regular");
+}
+
+*{
+    margin: -6.7px
+}
+
+#inicio{
+    background-color: black;
+    width: 1950px;
+    height: 950px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#texto-grande{
+    width: 2000px;
+    height: 1250px;
+    color: red;
+    font-size: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#texto{
+    width: 2000px;
+    height: 1250px;
+    color: goldenrod;
+    font-size: 16px;
+    display: flex;
+    align-items: space-between;
+}
+
+#contato{
+    width: 20px;
+    height: 1250px;
+    color: red;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
